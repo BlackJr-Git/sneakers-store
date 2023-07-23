@@ -278,10 +278,20 @@ h6{
     color: #fe4643;
 }
 
-@media  screen and (max-width:825px) {
+@media  screen and (max-width:840px) {
     .bg-font {
         font-size: 10em;
         opacity: 0.5;
+      }
+
+      h1 {
+        font-size: 8em;
+      }
+
+      header .container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
       }
 }
 
@@ -291,7 +301,11 @@ h6{
         opacity: 0.5;
       }
       .hero-img {
-        width: 80vw;
+        width: 60vw;
+      }
+
+      h1 {
+        font-size: 7em;
       }
 }
 
@@ -326,4 +340,41 @@ h6{
     h6{
         font-size: 2em;
     }
+
+    h1 {
+        font-size: 6em;
+      }
+}
+
+@media screen  and (max-width:515px) {
+    h1 {
+        font-size: 5em;
+      }
+
+      .bg-font {
+        font-size: 5em;
+        opacity: 0.5;
+      }
+}
+
+@media screen  and (max-width:414px) {
+    h1 {
+        font-size: 4em;
+      }
+
+      .bg-font {
+        font-size: 5em;
+        opacity: 0.5;
+      }
+
+    .navbar{
+        max-width: 320px;
+        background-color: #dfa745;
+    }
+
+    .hero-section{
+        height: 70vh;
+    }
+
+    
 }
